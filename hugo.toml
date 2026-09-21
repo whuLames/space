@@ -5,6 +5,7 @@ title = "Lames's Space"
 theme = 'PaperMod'
 enableRobotsTXT = true
 enableEmoji = true
+hasCJKLanguage = true
 
 [params]
   defaultTheme = 'auto'

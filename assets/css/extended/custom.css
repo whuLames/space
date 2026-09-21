@@ -1,0 +1,14 @@
+/* 自定义字体：宋体风格（衬线） */
+
+/* 网页字体 Noto Serif SC 在 extend_head.html 中引入，
+   加载失败时回退到各平台系统宋体 */
+body {
+  font-family: "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
+  line-height: 1.9;        /* 中文衬线字体配稍大行高更易读 */
+  letter-spacing: 0.02em;
+}
+
+/* 标题也用宋体，但保持较粗字重 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
+}
